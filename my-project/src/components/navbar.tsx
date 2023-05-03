@@ -7,7 +7,7 @@ export default function Navbar() {
     <div>
       <div className="navbar">
         <div className="grid grid-cols-3 gap-1">
-          <div>
+          <div className="button-container">
             <button className="navbar-button">HOME</button>
             <button className="navbar-button">THE STUDIO</button>
             <button className="navbar-button">PHOTOSHOOTS</button>
@@ -22,7 +22,7 @@ export default function Navbar() {
               height={300}
             />
           </div>
-          <div>
+          <div className="button-container">
             <button className="navbar-button">FAQ&apos;S</button>
             <button className="navbar-button">REVIEWS</button>
             <button className="navbar-button">BLOG</button>
