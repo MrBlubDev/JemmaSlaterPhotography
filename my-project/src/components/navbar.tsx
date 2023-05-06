@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
+import Link from "next/link";
 import { Nav, NavLink, NavbarBrand } from "react-bootstrap";
 
 export default function Navbar() {
@@ -13,15 +14,15 @@ export default function Navbar() {
             <button className="navbar-button">PHOTOSHOOTS</button>
             <button className="navbar-button">PRODUCTS</button>
           </div>
-          <div>
+          <Link href={"/"}>
             <img
               src="https://www.jemmaslaterphotography.com/wp-content/uploads/2021/02/Watermark-1%28pp_w1600_h470%29.png"
               alt="logo"
               className="logo center"
-              width={300}
-              height={300}
+              width={435}
+              height={435}
             />
-          </div>
+          </Link>
           <div className="button-container">
             <button className="navbar-button">FAQ&apos;S</button>
             <button className="navbar-button">REVIEWS</button>

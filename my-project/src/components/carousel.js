@@ -11,30 +11,31 @@ export default function Carousel() {
         perPage: 3,
         snap: true,
         drag: "free",
-        interval: 1000,
+        interval: 3000,
         pauseOnHover: true,
         type: "loop",
         preloadPages: true,
         arrows: false,
+        autoplay: true,
       }}
     >
       <SplideSlide>
-        <Image src="/william.jpg" alt="Image 1" width={500} height={500} />
+        <Image src="/william.jpg" alt="Image 1" width={600} height={600} />
       </SplideSlide>
       <SplideSlide>
-        <Image src="/blossom.jpg" alt="Image 2" width={500} height={500} />
+        <Image src="/blossom.jpg" alt="Image 2" width={600} height={600} />
       </SplideSlide>
       <SplideSlide>
-        <Image src="/oliver.jpg" alt="Image 3" width={500} height={500} />
+        <Image src="/oliver.jpg" alt="Image 3" width={600} height={600} />
       </SplideSlide>
       <SplideSlide>
-        <Image src="/twins.jpg" alt="Image 4" width={500} height={500} />
+        <Image src="/twins.jpg" alt="Image 4" width={600} height={600} />
       </SplideSlide>
       <SplideSlide>
-        <Image src="/arla.jpg" alt="Image 5" width={500} height={500} />
+        <Image src="/arla.jpg" alt="Image 5" width={600} height={600} />
       </SplideSlide>
       <SplideSlide>
-        <Image src="/Leo.jpg" alt="Image 6" width={500} height={500} />
+        <Image src="/Leo.jpg" alt="Image 6" width={600} height={600} />
       </SplideSlide>
     </Splide>
   );

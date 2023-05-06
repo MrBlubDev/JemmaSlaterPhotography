@@ -23,7 +23,7 @@ body {
   background-color: #ffffff;
   display: flex;
   align-items: center;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   justify-content: center;
   text-align: center;
@@ -39,13 +39,13 @@ body {
 
 .navbar-button {
   padding: 5px;
-  font-size: 12px;
+  font-size: 11px;
   cursor: pointer;
   text-decoration: none;
-  font-weight: normal;
+  font-weight: lighter;
   color: rgb(182, 182, 182);
   font-family: "Sorts Mill Goudy", serif;
-  letter-spacing: 2.5px;
+  letter-spacing: 3px;
 }
 
 .center {
