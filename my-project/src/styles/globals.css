@@ -2,25 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 ::-webkit-scrollbar {
   display: none;
 }
 
-body {
-  background-color: rgb(255, 231, 231);
-}
-
 .navbar {
-  height: 205px;
-  background-color: #ffffff;
+  height: 250px;
+  background-image: url(https://www.jemmaslaterphotography.com/wp-content/uploads/2021/02/1510882651-1502315574-Watercolor%20copy-1.jpg);
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   font-size: 20px;
@@ -51,4 +40,25 @@ body {
 .center {
   margin-left: auto;
   margin-right: auto;
+}
+
+.about {
+  border: 1px solid;
+  margin: auto;
+  width: 50%;
+  height: 522px;
+  padding: 10px;
+}
+
+.jemma {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image: url(https://www.jemmaslaterphotography.com/wp-content/uploads/2022/05/2022-05-26_0014-copy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  border-radius: inherit;
 }

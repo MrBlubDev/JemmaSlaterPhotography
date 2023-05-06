@@ -17,6 +17,8 @@ export default function Carousel() {
         preloadPages: true,
         arrows: false,
         autoplay: true,
+        flickPower: 25,
+        gap: 0,
       }}
     >
       <SplideSlide>

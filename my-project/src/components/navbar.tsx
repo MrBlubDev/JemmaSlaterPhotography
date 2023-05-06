@@ -19,8 +19,8 @@ export default function Navbar() {
               src="https://www.jemmaslaterphotography.com/wp-content/uploads/2021/02/Watermark-1%28pp_w1600_h470%29.png"
               alt="logo"
               className="logo center"
-              width={435}
-              height={435}
+              width={571}
+              height={571}
             />
           </Link>
           <div className="button-container">

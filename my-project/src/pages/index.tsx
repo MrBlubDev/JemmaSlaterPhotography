@@ -9,7 +9,9 @@ export default function Home() {
       <div>
         <Carousel />
       </div>
-      <Image src={"/Jemma.png"} alt="jemma" width={400} height={400} />
+      <div className="about">
+        <div className="jemma"></div>
+      </div>
     </div>
   );
 }
