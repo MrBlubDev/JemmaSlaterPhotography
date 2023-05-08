@@ -43,22 +43,17 @@
 }
 
 .about {
-  border: 1px solid;
-  margin: auto;
-  width: 50%;
-  height: 522px;
+  position: absolute;
+  left: 25%;
+  width: 60rem;
+  height: 100%;
+  border: 1px;
+  border-color: black;
   padding: 10px;
 }
 
-.jemma {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  background-image: url(https://www.jemmaslaterphotography.com/wp-content/uploads/2022/05/2022-05-26_0014-copy.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-  border-radius: inherit;
+.outline {
+  border-radius: 100%;
+  border-color: black;
+  border: 1px;
 }

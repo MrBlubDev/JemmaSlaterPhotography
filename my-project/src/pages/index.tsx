@@ -10,7 +10,15 @@ export default function Home() {
         <Carousel />
       </div>
       <div className="about">
-        <div className="jemma"></div>
+        <div className="jemma-container">
+          <Image
+            src="/Jemma.jpg"
+            alt="jem"
+            width={400}
+            height={400}
+            className="outline"
+          />
+        </div>
       </div>
     </div>
   );
