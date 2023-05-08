@@ -44,16 +44,53 @@
 
 .about {
   position: absolute;
-  left: 25%;
-  width: 60rem;
-  height: 100%;
-  border: 1px;
-  border-color: black;
-  padding: 10px;
+  margin-top: 50px;
+  left: 13.6%;
+  width: 65rem;
+  height: 62.8%;
+  border-color: #e8decf;
+  border-width: 1px;
+  border-style: solid;
+  padding: 0px;
+}
+
+.jemma-container {
+  width: 450px;
+  height: 450.583px;
+  position: absolute;
+  border-width: 1px;
+  border-style: solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-bottom: 0px;
+  border-color: #e8decf;
 }
 
 .outline {
-  border-radius: 100%;
-  border-color: black;
-  border: 1px;
+  border-color: #e8decf;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: inherit;
+  border-radius: 50%;
+}
+
+.m-jem {
+  color: rgba(19, 21, 22, 1);
+  text-transform: uppercase;
+  line-height: 2;
+  letter-spacing: 0.2em;
+  font-size: 12px;
+  text-align: left;
+  font-family: "Sorts Mill Goudy", serif;
+  width: 350px;
+  position: absolute;
+  left: 50px;
+  top: 80px;
+}
+
+.ab-r-sect {
+  width: 589px;
+  height: 451px;
+  position: absolute;
+  left: 450px;
 }

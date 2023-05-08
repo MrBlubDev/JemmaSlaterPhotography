@@ -10,12 +10,17 @@ export default function Home() {
         <Carousel />
       </div>
       <div className="about">
+        <div className="ab-r-sect">
+          <p className="m-jem">
+            MEET JEMMA, PROFESSIONAL NEWBORN AND MATERNITY PHOTOGRAPHER.
+          </p>
+        </div>
         <div className="jemma-container">
           <Image
             src="/Jemma.jpg"
             alt="jem"
-            width={400}
-            height={400}
+            width={450}
+            height={450}
             className="outline"
           />
         </div>
